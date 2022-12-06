@@ -30,17 +30,17 @@ panel:
 copyright:
   # Shown at the bottom of the post
   license:
-    template: 이 기사는 저작권자의 :LICENSE_NAME 라이센스를 따릅니다.
-    name: CC BY 4.0
-    link: https://creativecommons.org/licenses/by/4.0/
+    template: 이 글은 :LICENSE_NAME 라이센스를 따릅니다.
+    name: CC BY-NC-ND 4.0
+    link: https://creativecommons.org/licenses/by-nc-nd/4.0/
 
   # Displayed in the footer
   brief: 일부 권리 보유
   verbose: >-
     명시되지 않는 한 이 사이트의 블로그 게시물은 작성자의
-    Creative Commons Attribution 4.0 International(CC BY 4.0) 라이선스에 따라 사용이 허가되었습니다.
+    Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) 라이선스에 따라 사용이 허가되었습니다.
 
-meta: Powered by :PLATFORM with :THEME theme.
+meta: tonynamy의 블로그
 
 not_found:
   statment: 해당 URL은 존재하지 않습니다.
@@ -77,8 +77,8 @@ post:
 # See: <http://strftime.net/>, <https://day.js.org/docs/en/display/format>
 df:
   post:
-    strftime: '%Y/%m/%d'
-    dayjs: 'YYYY/MM/DD'
+    strftime: "%Y/%m/%d"
+    dayjs: "YYYY/MM/DD"
 
 # categories page
 categories:
